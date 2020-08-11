@@ -1,17 +1,22 @@
 package ar.com.EduIt.Notepad.Visual;
 
+
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import ar.com.EduIt.Notepad.Controler.FileUtil;
+
 import javax.swing.JSplitPane;
 import javax.swing.JTextField;
 import java.awt.Panel;
 import java.awt.Button;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.util.logging.Logger;
 import java.awt.event.ActionEvent;
 import java.awt.Choice;
 import java.awt.Color;
@@ -29,6 +34,10 @@ public class FrmPrincipal extends JFrame {
 
 	private JPanel contentPane;
 	private final JTextArea textArea = new JTextArea();
+	
+	
+
+
 
 	/**
 	 * Launch the application.
